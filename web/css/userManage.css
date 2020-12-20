@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #f00;
+}
+
+#header {
+    width: 800px;
+    margin: 10px auto
+}
+
+#pageBody {
+    margin: -15px auto;
+    width: 850px;
+    font-size: 14px;
+}
+
+#search {
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+#search form {
+    float: left;
+    margin-right: 5px;
+}
+
+#searchForm input {
+    height: 25px;
+    margin-right: 3px;
+    width: 117px;
+    border: 1px solid #ccc;
+}
+
+#bt {
+    float: right;
+}
+
+#search a {
+    float: left;
+    height: 25px;
+    width: 62px;
+    line-height: 25px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 3px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #d0d0d0;
+    text-align: center;
+    /*相邻边被合并*/
+    border-collapse: collapse;
+    border-spacing: 0px;
+    /*行和单元格的边框在横向和纵向上的间距*/
+    table-layout: fixed;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+td,
+th {
+    border: 1px solid #d0d0d0;
+}
+
+/* 标题行 */
+thead tr {
+    background-color: #09c;
+    font: bold 14px "微软雅黑";
+    color: #fff;
+    height: 30px;
+}
+
+tbody tr {
+    height: 30px;
+    line-height: 30px;
+}
+
+/*表格排序*/
+thead th.bg {
+    cursor: pointer
+}
+
+thead th.asc {
+    cursor: pointer
+}
+
+thead th.desc {
+    cursor: pointer
+}
+
+/* 偶数行背景色 */
+.tr_even {
+    background-color: #eee;
+}
+
+/* 奇数行背景色 */
+.tr_odd {
+    background-color: #fff
+}
+
+/* 鼠标悬停上的背景色 */
+.tr_hover {
+    background-color: #ffffcc
+}
+
+/* 选中的背景色 */
+.tr_select {
+    background-color: #aaa;
+}
+/*表格分页列表*/
+.paging {
+    margin-top: 10px;
+}
+
+.paging a {
+    color: #444;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.paging a:hover {
+    text-decoration: underline;
+    color: #f00;
+}
+
+.pageSize {
+    float: left;
+}
+
+#pageNumber {
+    color: #f00;
+    font-weight: bold;
+}
+
+.pageNav {
+    float: right;
+}
+
+/*弹出层*/
+.black_overlay {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(187, 184, 184);
+    z-index: 1001;
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+
+.white_content {
+    display: none;
+    position: absolute;
+    width: 390px;
+    border: 6px solid lightblue;
+    background-color: white;
+    z-index: 1002;
+    overflow: auto;
+}

@@ -1,0 +1,68 @@
+body{
+    background: url(../images/login.jpg) no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+
+a:link,
+a:visited {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+a:hover {}
+
+
+#container {
+    width: 800px;
+    height: 600px;
+    margin: 10px auto
+}
+
+#rightTop {
+    float: right;
+}
+
+#rightTop span {
+    color: red;
+}
+
+#menu {
+    padding: 35px 20px 0 0
+}
+
+#menu ul {
+    float: right;
+    list-style: none;
+    margin: 0px;
+}
+
+#menu ul li {
+    float: left;
+    display: block;
+    line-height: 30px;
+    margin: 0 10px
+}
+
+#menu ul li a {
+    font-weight: bold;
+    color: #666
+}
+
+#menu ul li a:hover {
+    color: red;
+}
+
+.menuDiv {
+    width: 1px;
+    height: 28px;
+    background: #999
+}
+
+#banner {
+    width: 800px;
+    margin: auto;
+    height: 5px;
+    border-bottom: 5px solid #F8F8FF;
+    clear: both
+}
